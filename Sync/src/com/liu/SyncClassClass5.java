@@ -15,7 +15,7 @@ public class SyncClassClass5 implements Runnable {
 
     public void method(){
         synchronized (SyncClassClass5.class){
-            System.out.println("类锁之*.Class文件 "+Thread.currentThread().getName()+" 开始");
+            System.out.println("类锁之Class文件 "+Thread.currentThread().getName()+" 开始");
             try {
                 Thread.sleep(3000);
             } catch (InterruptedException e) {
