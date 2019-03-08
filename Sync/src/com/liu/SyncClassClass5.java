@@ -1,5 +1,8 @@
 package com.liu;
 
+/*
+*   类锁之同步代码块里加本类的Class文件
+* */
 public class SyncClassClass5 implements Runnable {
 
     static SyncClassClass5 instance1 = new SyncClassClass5();
