@@ -12,7 +12,7 @@ public class DisappearRequest1 implements Runnable{
         t1.start();
         t2.start();
         t1.join();
-        t2.join();
+        t2.join();   //join方法保证两个线程串行完成
         System.out.println(i);
 
     }

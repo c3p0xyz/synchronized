@@ -1,5 +1,10 @@
 package com.liu;
 
+/*
+*   对象锁方式之同步代码块
+*
+* */
+
 public class SyncCodeBlock2 implements Runnable{
 
     static SyncCodeBlock2 instance = new SyncCodeBlock2();

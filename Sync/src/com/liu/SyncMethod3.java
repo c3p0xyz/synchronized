@@ -1,5 +1,8 @@
 package com.liu;
 
+/*
+*   对象锁方式之通过在普通方法上加 synchronized 关键字
+* */
 public class SyncMethod3 implements Runnable {
 
     static SyncMethod3 instance = new SyncMethod3();
